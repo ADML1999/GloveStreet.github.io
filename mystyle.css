@@ -1,4 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
     color: whitesmoke;
+}
+
+.gsnav {
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+
+.gshead {
+    width: 100vw;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gsmain {
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
 }
