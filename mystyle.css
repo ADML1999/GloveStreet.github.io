@@ -9,23 +9,61 @@ body {
 }
 
 .gsnav {
-    position: fixed;
     width: 20vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;}
+    justify-content: space-around;
+    position: fixed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+}
 
 .gshead {
-    width: 100vw;
+    width: 78vw;
     height:20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.gshead h1 {
+    color: orangered;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h1:hover {
+    color: green;
+}
 
 .gsmain {
-    width: 100vw;
-    height: 80vh;
+    width: 78vw;
+    height: 100vh;
     text-align: center;
+}
+
+button {
+    width: 20vw;
+    height: 25vh;
+    background-color: black;
+    border: 1px dashed orangered;
+}
+button:hover {
+    background-color: whitesmoke;
+}
+
+a:link {
+    color: orangered;
+}
+a:visited {
+    color: orangered;
+}
+a:hover {
+    color: orangered;
+}
+a:active {
+    color: orangered;
 }
