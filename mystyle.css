@@ -35,14 +35,21 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
 }
-h1:hover {
-    color: green;
+.gshead h1:hover {
+    color: rgb(10, 99, 10);
 }
 
 .gsmain {
     width: 78vw;
     height: 100vh;
     text-align: center;
+}
+.gsmain h2 {
+    padding-bottom: 1vh;
+    color: yellowgreen;
+}
+.gsmain h2:hover {
+    color: orangered;
 }
 
 button {
@@ -66,4 +73,25 @@ a:hover {
 }
 a:active {
     color: orangered;
+}
+
+#ubn {
+    background-color: rgb(217, 255, 0);
+    width: 80vw;
+    height: 98vh;
+}
+#spt {
+    background-color: rgb(5, 255, 59);
+    width: 80vw;
+    height: 98vh;
+}
+#cr {
+    background-color: rgb(5, 176, 255);
+    width: 80vw;
+    height: 98vh;
+}
+#rp {
+    background-color: rgb(255, 5, 5);
+    width: 80vw;
+    height: 98vh;
 }
