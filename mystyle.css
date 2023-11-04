@@ -25,8 +25,8 @@ body {
 }
 
 .gshead {
-    width: 78vw;
-    height:20vh;
+    width: 80vw;
+    height:12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,16 +41,9 @@ body {
 }
 
 .gsmain {
-    width: 78vw;
+    width: 80vw;
     height: 100vh;
     text-align: center;
-}
-.gsmain h2 {
-    padding-bottom: 1vh;
-    color: yellowgreen;
-}
-.gsmain h2:hover {
-    color: orangered;
 }
 
 button {
