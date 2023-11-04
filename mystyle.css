@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body {
@@ -61,6 +62,10 @@ button {
 button:hover {
     background-color: whitesmoke;
 }
+button a {
+    text-decoration: none;
+
+}
 
 a:link {
     color: orangered;
@@ -75,23 +80,23 @@ a:active {
     color: orangered;
 }
 
-#ubn {
-    background-color: rgb(217, 255, 0);
+#md {
+    background-color: rgb(238, 255, 1);
     width: 80vw;
-    height: 98vh;
+    height: 100vh;
+}
+#ubn {
+    background-color: rgb(255, 196, 0);
+    width: 80vw;
+    height: 100vh;
 }
 #spt {
-    background-color: rgb(5, 255, 59);
+    background-color: rgb(255, 22, 5);
     width: 80vw;
-    height: 98vh;
-}
-#cr {
-    background-color: rgb(5, 176, 255);
-    width: 80vw;
-    height: 98vh;
+    height: 100vh;
 }
 #rp {
-    background-color: rgb(255, 5, 5);
+    background-color: rgb(255, 5, 130);
     width: 80vw;
-    height: 98vh;
+    height: 100vh;
 }
