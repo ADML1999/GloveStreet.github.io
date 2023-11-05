@@ -4,11 +4,6 @@
     border: 0;
 }
 
-body {
-    background-color: black;
-    color: whitesmoke;
-}
-
 .gsnav {
     width: 20vw;
     height: 100vh;
@@ -30,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 .gshead h1 {
     color: orangered;
@@ -45,6 +41,7 @@ body {
     height: 100vh;
     text-align: center;
     padding-left: 20vw;
+    background-color: white;
 }
 
 button {
@@ -75,13 +72,10 @@ a:active {
 }
 
 #md {
-    background-color: rgb(238, 255, 1);
     width: 80vw;
     height: 98vh;
-    overflow: hidden;
 }
 #ubn {
-    background-color: rgb(255, 196, 0);
     width: 80vw;
     height: 98vh;
 }
@@ -99,13 +93,12 @@ a:active {
 .slide-content {
     width: 80vw;
     height: 100vh;
-    background-color: blueviolet;
     overflow: hidden;
 }
-.navigation {
+.mdnavigation {
     position: absolute;
     bottom: -80px;
-    left: 50%;
+    left: 40%;
     display: flex;
 }
 .bar {
@@ -113,7 +106,7 @@ a:active {
     justify-content: center;
     align-items: center;
     width: 15vw;
-    height: 5vh;
+    height: 10vh;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
     margin: 5px;
@@ -135,15 +128,34 @@ input {
     transition: .6s;
 }
 .slide img {
-    width: 100%;
-    height: 100%;
+    width: 600px;
+    height: 600px;
 }
 #slide1:checked ~ .s1 {
-    margin-left:0vw;
+    margin-left:4vw;
 }
 #slide2:checked ~ .s1 {
-    margin-left: -105vw;
+    margin-left: -108vw;
 }
 #slide3:checked ~ .s1 {
+    margin-left: -208vw;
+}
+
+.ubnnavigation {
+    position: absolute;
+    bottom: -725px;
+    left: 27%;
+    display: flex;
+}
+#slide4:checked ~ .s2 {
+    margin-left:4vw;
+}
+#slide5:checked ~ .s2 {
+    margin-left: -87vw;
+}
+#slide6:checked ~ .s2 {
     margin-left: -210vw;
+}
+#slide7:checked ~ .s2 {
+    margin-left: -305vw;
 }
