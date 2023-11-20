@@ -57,6 +57,8 @@ button a {
     text-decoration: none;
     display: block;
     cursor: pointer;
+    height: 24vh;
+    padding-top: 25%;
 }
 
 a:link {
@@ -148,7 +150,7 @@ input {
     display: flex;
 }
 #slide4:checked ~ .s2 {
-    margin-left:4vw;
+    margin-left:8vw;
 }
 #slide5:checked ~ .s2 {
     margin-left: -87vw;
@@ -167,13 +169,13 @@ input {
     display: flex;
 }
 #slide8:checked ~ .s3 {
-    margin-left:2vw;
+    margin-left:30vw;
 }
 #slide9:checked ~ .s3 {
-    margin-left: -90vw;
+    margin-left: -50vw;
 }
 #slide10:checked ~ .s3 {
-    margin-left: -177vw;
+    margin-left: -157vw;
 }
 #slide11:checked ~ .s3 {
     margin-left: -307vw;
